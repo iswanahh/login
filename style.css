@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+.container {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    max-width: 400px;
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 60px;
+    /* padding: 40px; */
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 120%;
+    font-weight: 100;
+}
+.form-box {
+    margin: auto;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.form-column {
+    width: 70%;
+    margin: auto;
+}
+input[type = email],
+input[type = password],
+input[type = text],
+input[type = number] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: auto;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.btn-submit {
+    text-decoration: none;
+    background-color: rgb(72, 154, 168);
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: rgb(72, 154, 168);    
+}
+
+.forgot-password a:hover,
+.forgot-password a:active {
+    border-bottom: 2px solid rgba(72, 154, 168, 0.952);
+}
+
+p {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.sign-up:link,
+.sign-up:visited,
+.log-in:link,
+.log-in:visited {
+    font-size: 70%;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(72, 154, 168, 0.952);
+}
+
+.sign-up:hover,
+.sign-up:active,
+.log-in:hover,
+.log-in:active  {
+    background-color:  #fff;
+    color: rgb(65, 159, 175);
+    border-bottom: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(65, 159, 175);
+}
